@@ -7,7 +7,7 @@ public class Hierarchical_Inheritance {
             System.out.println("Display Area");
         }
     }
-    public static class Triangle extends Single_Level_Inheritance.Shape {
+    public static class Triangle extends Shape {
         public void area(int h , int b){
             System.out.println(1/2*h*b);
         }

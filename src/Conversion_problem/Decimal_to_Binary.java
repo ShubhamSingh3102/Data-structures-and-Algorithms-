@@ -1,6 +1,9 @@
 package Conversion_problem;
 import java.util.Scanner;
 public class Decimal_to_Binary {
+    public Decimal_to_Binary(int n) {
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the decimal number: ");

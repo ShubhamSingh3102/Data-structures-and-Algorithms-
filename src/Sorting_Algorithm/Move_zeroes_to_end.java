@@ -37,6 +37,20 @@ public class Move_zeroes_to_end {
             }
         }
     }
+    static void moveZeroes2(int[] arr){
+        int n = arr.length;
+        int start = 0;
+        int end = n-1;
+        while(start<=end){
+            if(arr[start] == 0){
+                swap(arr,start,end);
+                end--;
+            }
+            else{
+                start++;
+            }
+        }
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array");
@@ -48,7 +62,8 @@ public class Move_zeroes_to_end {
         }
         printArray(arr);
 //        moveZeroes(arr);
-        moveZeroes1(arr);
+//        moveZeroes1(arr);
+        moveZeroes2(arr);
         System.out.println("After moving zeroes");
         printArray(arr);
     }

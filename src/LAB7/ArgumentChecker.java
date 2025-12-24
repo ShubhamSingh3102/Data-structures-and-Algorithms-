@@ -14,7 +14,7 @@ public class ArgumentChecker {
             if (args.length < 4) {
                 throw new CheckArgument("Insufficient arguments. Please provide at least 4 numbers.");
             }
-
+            
             int sumOfSquares = 0;
             for (int i = 0; i < 4; i++) {
                 try {

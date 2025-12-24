@@ -1,5 +1,4 @@
 package LAB6;
-import java.util.Scanner;
     abstract class Student {
         int rollNo;
         long regNo;
