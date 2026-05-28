@@ -8,9 +8,9 @@ public class Cycle_in_a_linked_list {
             this.data = data;
         }
     }
-    public static void display(Middle_element_of_linked_list.Node head){
-        Middle_element_of_linked_list.Node temp = head;
-        while(temp!=null){
+    public static void display(Node head){
+        Node temp = head;
+        while(temp != null){
             System.out.print(temp.data + " ");
             temp = temp.next;
         }

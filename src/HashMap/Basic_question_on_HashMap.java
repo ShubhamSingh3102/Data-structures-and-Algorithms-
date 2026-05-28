@@ -3,7 +3,7 @@ import java.util.*;
 public class Basic_question_on_HashMap {
     static void HashMap_Question(){
         // Syntax.....
-        Map<String , Integer> mp = new HashMap<>();
+        HashMap<String , Integer> mp = new HashMap<>();
         // Adding Elements....
         mp.put("Akash",21);
         mp.put("Yash",16);
@@ -14,6 +14,7 @@ public class Basic_question_on_HashMap {
         // Getting value of a key from the HashMap
         System.out.println(mp.get("Yash")); // 16
         System.out.println(mp.get("Rahul")); // null
+        System.out.println(mp.get("Rishika")); // 19
 
         // Changing/Updating value of a key in the HashMap
         mp.put("Akash",25);
@@ -23,6 +24,7 @@ public class Basic_question_on_HashMap {
         System.out.println(mp.remove("Akash")); // 25
         System.out.println(mp);
         System.out.println(mp.remove("Shubham")); // null
+        System.out.println(mp.size());
 
         // Checking if a key is in the HashMap or not....
         System.out.println(mp.containsKey("Akash")); // false
